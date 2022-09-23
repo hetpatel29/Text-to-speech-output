@@ -6,7 +6,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Hello!")
+            Text("Hello")
+                .font(.system(size: 70))
+                .fontWeight(.heavy)
+            Text("there!")
                 .font(.system(size: 70))
                 .fontWeight(.heavy)
             
